@@ -46,7 +46,7 @@ export default function Profile() {
         <div className="profile__buttons">
           <Link
             target="_blank"
-            href="https://drive.google.com/file/d/1NRHA_Wzlm0lvDYM-vm1hx265ueJCL_qt/view?usp=sharing"
+            href="https://drive.google.com/file/d/1H0d2Fh-cZhPREBjB3XN61i6xCUiTyaRD/view?usp=sharing"
             className="button"
           >
             Download CV
