@@ -317,6 +317,7 @@ img {
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
+  height: 20rem;
 }
 
 .projects__card img {
@@ -467,7 +468,7 @@ img {
 }
 
 @media screen and (min-width: 776px) {
-  .projects__content,
+  /* .projects__content, */
   .skills__content {
     grid-template-columns: repeat(2, 332px);
   }

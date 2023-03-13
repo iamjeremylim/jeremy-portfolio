@@ -20,7 +20,7 @@ export default function Profile() {
         <div className="profile__data">
           <div className="profile__border">
             <div className="profile__perfil">
-              <img src="/images/taiwan.jpg" alt="profile picture" />
+              <img src="/images/profile.png" alt="profile picture" />
             </div>
           </div>
           <h2 className="profile__name">Jeremy Lim</h2>
@@ -43,23 +43,12 @@ export default function Profile() {
           </ul>
         </div>
 
-        <div className="profile__info grid">
-          <div className="profile__info-group">
-            <h3 className="profile__info-number">1+</h3>
-            <p className="profile__info-description">
-              Year of <br></br>work
-            </p>
-          </div>
-          <div className="profile__info-group">
-            <h3 className="profile__info-number">2</h3>
-            <p className="profile__info-description">
-              Completed <br></br>projects
-            </p>
-          </div>
-        </div>
-
         <div className="profile__buttons">
-          <Link href="" className="button">
+          <Link
+            target="_blank"
+            href="https://drive.google.com/file/d/1NRHA_Wzlm0lvDYM-vm1hx265ueJCL_qt/view?usp=sharing"
+            className="button"
+          >
             Download CV
             <i className="ri-download-line"></i>
           </Link>
